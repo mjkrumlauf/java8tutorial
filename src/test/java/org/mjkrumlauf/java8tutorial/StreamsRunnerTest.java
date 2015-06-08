@@ -18,7 +18,7 @@ public class StreamsRunnerTest implements Base {
     public StreamsRunnerTest() {
         this.stringCollection = Arrays.asList("ddd2", "aaa2", "bbb1", "aaa1", "bbb3", "ccc", "bbb2", "ddd1");
 
-        final int max = 1000000;
+        final int max = 1_000_000;
         this.values = new ArrayList<>(max);
         for (int i = 0; i < max; i++) {
             UUID uuid = UUID.randomUUID();
